@@ -1,6 +1,6 @@
 import BigNumber from "bignumber.js";
 import { expect } from "chai";
-import { karatsuba, recursiveMultiply } from "../src/module-01/01-karatsuba";
+import { karatsuba, recursiveMultiply } from "../../src/module-01/01-multiply";
 
 BigNumber.config({ EXPONENTIAL_AT: 1e9 });
 
