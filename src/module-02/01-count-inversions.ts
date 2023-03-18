@@ -1,9 +1,8 @@
 /* 
 GOTCHAS/ Learning points
-
 1. Reminder, this is actually implementing MergeSort
-
 */
+
 export const sortAndCountInversions = (input: number[]): [number[], number] => {
   // base case
   if (input.length === 0 || input.length === 1) {

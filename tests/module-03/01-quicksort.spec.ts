@@ -13,7 +13,7 @@ CREDIT various folks who provided test cases
 https://github.com/ds17f/stanford-algs/tree/master/testCases/course1/assignment3Quicksort
 https://www.coursera.org/learn/algorithms-divide-conquer/discussions/forums/CXluNHblEeaK6BLwFglc1Q/threads/fG_c7gxREeiFUgpNZCwT4A
 */
-describe.only("QuickSort Functions", () => {
+describe("QuickSort Functions", () => {
   it("quickSort should sort array and return correct number of comparisons", () => {
     let arr = [3, 2, 1, 4, 5];
     let res = [1, 2, 3, 4, 5];
